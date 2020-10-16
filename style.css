@@ -1,0 +1,29 @@
+ul{
+    display: flex;    
+    justify-content: left;
+    flex-direction: row;
+    list-style-type: none;
+    margin-right: 5px;
+}
+.right{
+    align-self: flex-end;
+}
+
+section{    
+    display: flex;
+    align-items: center;
+    justify-content: center;        
+}
+
+#logo{
+    padding-bottom: 10px;
+}
+#search{
+    width: 600px;
+}
+#buttons{
+    padding-top: 20px;
+}
+button{
+    margin: 10px;
+}
